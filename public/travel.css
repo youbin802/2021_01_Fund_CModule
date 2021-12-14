@@ -1,0 +1,126 @@
+footer {
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height:100px;   
+background-color: #ccc;
+}
+
+.col-12 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ddd;
+    height:100px;
+}
+
+.profil-container {
+    margin-top:100px;
+    display:flex;
+}
+
+.fa-user {
+    background-color: #ddd;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+}
+
+.more-group {
+    margin-top:10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.more {
+    display:flex;
+   border-top:1px solid #ddd;
+    flex-direction: column;
+    position: absolute;
+    bottom:30px;
+    width:100%;
+    left:1px;
+    padding-top:80px;
+    padding-left:30px;
+}
+
+.more span:nth-child(1) {
+    font-weight: bold;
+    color:rgb(212, 212, 212);
+}
+.more span:nth-child(3) {
+    font-weight: bold;
+    color:rgb(212, 212, 212);
+}
+
+.more span:nth-child(2) {
+    font-weight: bold;
+    color:rgb(153, 153, 153);
+}
+.more span:nth-child(4) {
+    font-weight: bold;
+    color:rgb(153, 153, 153);
+}
+
+
+.userBox {
+    position: relative;
+    border-radius: 5px;
+    width:200px;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 2px 4px 4px rgba(32, 48, 93, 0.1);
+}
+
+.user-side {
+    width:100%;
+    margin-left:30px;
+    height:700px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px 4px rgba(32, 48, 93, 0.1);
+}
+
+.profil-container h4 {
+    margin-top:30px;
+    font-weight: bold;
+    color:rgb(100, 144, 180);
+}
+
+.inv {
+    border-radius: 5px;
+    border:2px solid #ddd;
+}
+
+.flex-center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-container {
+    position: relative;
+    top:250px;
+}
+
+.join-container form{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+}
+
+.join-container form input{
+    border:none;
+    border-bottom:1px solid #ddd;
+    padding:10px;
+}
+
+
+
+
+
